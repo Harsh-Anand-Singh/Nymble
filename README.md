@@ -35,7 +35,7 @@ The diagram above illustrates the architecture of the Nymble system, including t
 ## Usage
 
 1. Once the application is running, access the endpoints via HTTP requests to perform various operations.
-2. Use tools like Postman or cURL to interact with the RESTful API endpoints.
+2. Use tools like Postman or cURL to interact with the SOAP API endpoints.
 3. Explore the different functionalities provided by the system, such as creating travel packages, managing destinations and activities, handling passengers, and printing details.
 
 ## Contributing
