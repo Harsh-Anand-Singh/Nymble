@@ -18,7 +18,6 @@ Nymble is a software system designed to help travel agencies manage their travel
 - **H2 Database**: An in-memory database used for development and testing purposes.
 - **Maven**: Dependency management tool for building and managing Java-based projects.
 - **Lombok**: Library for reducing boilerplate code in Java classes.
-- **RESTful API**: HTTP endpoints provided for interacting with the system.
 
 ## Installation and Setup
 
