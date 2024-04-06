@@ -2,6 +2,12 @@
 
 Nymble is a software system designed to help travel agencies manage their travel packages' itinerary and passengers effectively. It provides functionalities for maintaining travel packages, destinations, activities, and passengers, along with features for printing itinerary details, passenger lists, activity details, and available activities.
 
+## System Architecture
+
+![System Architecture Diagram](system_architecture_diagram.png)
+
+The diagram above illustrates the architecture of the Nymble system, including the models, their field types, and their relationships.
+
 ## Features
 
 - **Travel Packages Management**: Create, update, delete travel packages with details such as name, passenger capacity, and itinerary.
