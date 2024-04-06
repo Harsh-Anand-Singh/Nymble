@@ -1,9 +1,0 @@
-package com.harshanandsingh.nymble.repository;
-
-import com.harshanandsingh.nymble.model.Destination;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
-@Repository
-public interface DestinationRepository extends JpaRepository<Destination, Long> {
-}
