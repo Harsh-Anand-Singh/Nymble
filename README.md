@@ -4,7 +4,7 @@ Nymble is a software system designed to help travel agencies manage their travel
 
 ## System Architecture
 
-![System Architecture Diagram](System Architecture.png)
+![System Architecture Diagram](SystemArchitecture.png)
 
 The diagram above illustrates the architecture of the Nymble system, including the models, their field types, and their relationships.
 
