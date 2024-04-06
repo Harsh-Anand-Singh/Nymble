@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://harshanandsingh.com/nymble"
+           xmlns:tns="http://harshanandsingh.com/nymble"
+           elementFormDefault="qualified">
+
+    <xs:element name="getActivityRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getActivityResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Activity" type="tns:Activity"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="createActivityRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Activity" type="tns:Activity"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="createActivityResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Activity" type="tns:Activity"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="Activity">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="cost" type="xs:double"/>
+            <xs:element name="capacity" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
